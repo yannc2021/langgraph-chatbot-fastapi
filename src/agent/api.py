@@ -1,6 +1,6 @@
-from fastapi import FastAPI, HTTPException, Request
-from pydantic import BaseModel, Field
-from typing import List, Dict, Any, Optional
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import Any
 from agent.graph import graph
 
 app = FastAPI()
